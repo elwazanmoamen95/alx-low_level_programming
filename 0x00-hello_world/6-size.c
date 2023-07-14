@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main : entry point
+ * main - entry point
  *
- * Description: A c-program print sizeof
+ * Description: A c-program print sizeof various types on the computer
  *
  * Return: always 0 (success)
  */
