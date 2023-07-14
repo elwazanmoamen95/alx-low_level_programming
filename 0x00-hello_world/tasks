@@ -1,0 +1,23 @@
+#1/bin/bash
+
+
+echo "name of file:"
+read name
+
+echo "#!/bin/bash" > ${name}
+
+
+
+echo "write message task"
+read message 
+echo "${message}" >> ${name}
+
+
+
+chmod u+x ${name}
+
+
+
+git add .
+git commit -m "${name}"
+git push
