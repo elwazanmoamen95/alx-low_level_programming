@@ -3,9 +3,9 @@
 /**
  * main - entry point
  *
- * description: a c program
+ * Description: a c program
  *
- * return: always 0 (success)
+ * Return: always 0 (success)
  */
 
 int main(void)
