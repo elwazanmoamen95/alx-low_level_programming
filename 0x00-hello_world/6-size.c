@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
  * Description: A c-program print sizeof various types on the computer
  *
- * Return: always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -12,7 +12,7 @@ printf("size of a char: %u byte(s)\n", sizeof(char));
 printf("size of an int: %u byte(s)\n", sizeof(int));
 printf("size of a long int: %u byte(s)\n", sizeof(long int));
 printf("size of a long long int: %u byte(s)\n", sizeof(long long int));
-printf("size of a float: %u byte(S)\n", sizeof(float));
+printf("size of a float: %u byte(s)\n", sizeof(float));
 return (0);
 
 }
