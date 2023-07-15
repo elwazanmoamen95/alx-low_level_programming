@@ -15,7 +15,7 @@ int main(void)
 		putchar(num + '0');
 		num++;
 	}
-		while (num > 9)
+		while (num <= 15)
 		{
 			putchar(num + 87);
 			num++;
