@@ -8,14 +8,14 @@
  */
 int main(void)
 {
-	int i, a, b, sum;
+	long i, a, b, sum;
 
 	a = 0, b = 1;
 
 	for (i = 0; i < 50; i++)
 	{
 		sum =  a + b;
-		printf("%d", sum);
+		printf("%lu", sum);
 
 		a = b;
 		b = sum;
