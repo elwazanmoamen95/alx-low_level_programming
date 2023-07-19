@@ -14,13 +14,13 @@ int main(void)
 
 	for (i = 0; i < 50; i++)
 	{
-		sum a + b;
+		sum =  a + b;
 		printf("%d", sum);
 
 		a = b;
 		b = sum;
 
-		if (count == 49)
+		if (i == 49)
 			printf("\n");
 		else
 			printf(", ");
