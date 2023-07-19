@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	long a = 0, b = 1, sum, totalsum;
+	long a = 0, b = 1, sum;
+	int total;
 
 	while (1)
 	{
@@ -17,12 +18,12 @@ int main(void)
 		if (sum > 4000000)
 			break;
 		if ((sum % 2) == 0)
-			totalsum += sum;
+			total += sum;
 
 		a = b;
 		b = sum;
 	}
-	printf("%lu\n", totalsum);
+	printf("%d\n", total);
 
 	return (0);
 }
