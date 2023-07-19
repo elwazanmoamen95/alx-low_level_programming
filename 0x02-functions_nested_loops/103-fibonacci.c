@@ -10,7 +10,7 @@ int main(void)
 {
 	long a = 0, b = 1, sum, totalsum;
 
-	while (true)
+	while (1)
 	{
 		sum = a + b;
 
