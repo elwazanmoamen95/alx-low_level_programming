@@ -14,10 +14,10 @@ int main(void)
 	{
 		sum = a + b;
 
-		if ((sum % 2) == 0)
-			totalsum += sum;
 		if (sum > 4000000)
 			break;
+		if ((sum % 2) == 0)
+			totalsum += sum;
 
 		a = b;
 		b = sum;
