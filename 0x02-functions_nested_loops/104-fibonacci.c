@@ -38,7 +38,7 @@ int main(void)
 				printf("%lu", a1);
 		s = numLength(mx) - 1 - numLength(a);
 
-		while (a1 > 0 && 0s > 0)
+		while (a1 > 0 && s > 0)
 		{
 			printf("%d", 0);
 			s--;
