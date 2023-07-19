@@ -29,19 +29,19 @@ int numLength(int num)
  */
 int main(void)
 {
-	int i, 0;
+	int i, s;
 	long a = 1, b = 2, sum, mx = 100000000, a1 = 0, b1 = 0, sum0 = 0;
 
 		for (i = 1; i <= 98; i++)
 		{
 			if (a1 > 0)
 				printf("%lu", a1);
-		0 = numLength(mx) - 1 - numLength(a);
+		s = numLength(mx) - 1 - numLength(a);
 
 		while (a1 > 0 && 0s > 0)
 		{
 			printf("%d", 0);
-			0--;
+			s--;
 		}
 
 		printf("%lu", a);
