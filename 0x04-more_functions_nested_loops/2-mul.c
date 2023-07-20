@@ -1,12 +1,12 @@
 #include "mian.h"
 
 /**
- * mut - multiplies two integer
+ * mul - multiplies two integer
  *
  * @a: first integer
  * @b: second integer
  *
- * Return: always 0 (success)
+ * Return: return results
  */
 int mul(int a, int b)
 {
