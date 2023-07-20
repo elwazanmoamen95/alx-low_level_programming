@@ -1,10 +1,10 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * mul - multiplies two integer
  *
- * @a: first integer
- * @b: second integer
+ * @a: first input
+ * @b: second input
  *
  * Return: return results
  */
