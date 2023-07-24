@@ -10,10 +10,8 @@ void rev_string(char *s)
 {
 	int i;
 
-	while (s[i])
-		i++;
-	/*for (i = 0; s[i] != '\0'; ++1)*/
-	/*	;*/
+	for (i = 0; s[i] != '\0'; ++1)
+		;
 
 	while (i--)
 	{
