@@ -17,7 +17,7 @@ char *move_past_star(char *s2)
 }
 
 /**
- * inceptin -  make
+ * inception -  make
  * @s2: second
  * @s1: first
  * Return: 0
