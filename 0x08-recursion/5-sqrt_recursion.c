@@ -2,6 +2,7 @@
 /**
  * _sqrt_recursion - ss
  * square - df
+ *
  * @n: number
  * @val: n2
  *
@@ -14,8 +15,10 @@ int _sqrt_recursion(int n)
 }
 /**
  * square - df
+ *
  * @n: l
- * @val; d
+ * @val: d
+ *
  * Return: void
  */
 int square(int n, int val)
