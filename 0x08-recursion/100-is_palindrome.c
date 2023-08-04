@@ -3,6 +3,9 @@
  * is_palindrome - same letters
  *
  * @s: string
+ * @start: start letter
+ * @end: last letter
+ * @mod: reminder
  *
  * Return: 0 or 1
  */
@@ -17,7 +20,7 @@ int is_palindrome(char *s)
 
 /**
  * last_index - count string
- * 
+ *
  * @s: string
  *
  * Return: number of string
@@ -30,9 +33,21 @@ int last_index(char *s)
 		n += last_index(s + 1) + 1;
 	return (n);
 }
+
+/**
+ * check - check palindrome
+ *
+ * @s:
+ * @start: start letter
+ * @end: last letter
+ * @mod: reminder
+ *
+ * Return: 1 or 0
+ */
+
 int check(char *s, int start, int end, int mod)
 {
-	if ((start == end && mod != 0) || (end == start + 1 && mod == 0))
+	if ((start == end && mod != 0) || (start == end + 1 && mod == 0))
 		return (1);
 	else if (s[start] != s[end])
 		return (0);
