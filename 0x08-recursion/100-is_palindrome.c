@@ -37,7 +37,7 @@ int last_index(char *s)
 /**
  * check - check palindrome
  *
- * @s:
+ * @s: string
  * @start: start letter
  * @end: last letter
  * @mod: reminder
