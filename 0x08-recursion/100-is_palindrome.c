@@ -32,7 +32,7 @@ int last_index(char *s)
 }
 int check(char *s, int start, int end, int mod)
 {
-	if ((start == end && mod != 0)) || (end == start + 1 && mod == 0))
+	if ((start == end && mod != 0) || (end == start + 1 && mod == 0))
 		return (1);
 	else if (s[start] != s[end])
 		return (0);
