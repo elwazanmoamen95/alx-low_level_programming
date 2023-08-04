@@ -16,8 +16,8 @@ int _sqrt_recursion(int n)
 /**
  * square - df
  *
- * @n: l
- * @val: d
+ * @n: number
+ * @val: n2
  *
  * Return: void
  */
